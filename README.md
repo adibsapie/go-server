@@ -15,7 +15,6 @@ POST /form                # return form data
 ```
 
 To start :
-```
 1. Open Windows Powershell and go to the project directory. Execute `go run main.go`
 2. Powershell will show `Starting server at port 8080`
 3. Go to browser, navigate to `locahost:8080`
