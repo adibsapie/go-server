@@ -1,6 +1,12 @@
 # go-server
 Simple Web-server using Go
 
+The API structure is very simple:
+```
+GET  /hello               # return hello
+POST /form                # return form data
+```
+
 ## Run 🛠
 > All commands are to be run from the root project directory.
 > 
@@ -8,11 +14,6 @@ Simple Web-server using Go
 > 
 > Current `go` executables should detect and install dependencies correctly.
 
-The API structure is very simple:
-```
-GET  /hello               # return hello
-POST /form                # return form data
-```
 
 To start :
 1. Open Windows Powershell and go to the project directory. Execute `go run main.go`
